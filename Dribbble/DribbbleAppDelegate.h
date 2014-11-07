@@ -6,8 +6,12 @@
 //  Copyright (c) 2014年 chenkai. All rights reserved.
 //
 
-#ifndef Dribbble_DribbbleAppDelegate_h
-#define Dribbble_DribbbleAppDelegate_h
+#import <UIKit/UIkit.h>
+#import "DribbbleShotViewController.h"
 
+@interface DribbbleAppDelegate : UIResponder <UIApplicationDelegate>
 
-#endif
+@property (strong,nonatomic) UIWindow *window;
+@property (atomic,readwrite) DribbbleShotViewController *basicController;
+
+@end

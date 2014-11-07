@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D642052D1A0C7F16002A94A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D642052C1A0C7F16002A94A5 /* main.m */; };
-		D64205301A0C7F16002A94A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D642052F1A0C7F16002A94A5 /* AppDelegate.m */; };
-		D64205331A0C7F16002A94A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64205321A0C7F16002A94A5 /* ViewController.m */; };
-		D64205361A0C7F16002A94A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64205341A0C7F16002A94A5 /* Main.storyboard */; };
 		D64205381A0C7F16002A94A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64205371A0C7F16002A94A5 /* Images.xcassets */; };
 		D642053B1A0C7F16002A94A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64205391A0C7F16002A94A5 /* LaunchScreen.xib */; };
 		D64205471A0C7F16002A94A5 /* DribbbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64205461A0C7F16002A94A5 /* DribbbleTests.m */; };
 		D64205541A0C7F70002A94A5 /* DribbbleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D64205531A0C7F70002A94A5 /* DribbbleAppDelegate.m */; };
+		D642055B1A0C9CF4002A94A5 /* DribbbleShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D642055A1A0C9CF4002A94A5 /* DribbbleShotViewController.m */; };
+		D642055F1A0CA0C7002A94A5 /* DribbbleShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = D642055E1A0CA0C7002A94A5 /* DribbbleShotView.m */; };
+		D64205641A0CB44C002A94A5 /* PopularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64205631A0CB44C002A94A5 /* PopularViewController.m */; };
+		D64205671A0CB46D002A94A5 /* PopularView.m in Sources */ = {isa = PBXBuildFile; fileRef = D64205661A0CB46D002A94A5 /* PopularView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +32,6 @@
 		D64205271A0C7F16002A94A5 /* Dribbble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dribbble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D642052B1A0C7F16002A94A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D642052C1A0C7F16002A94A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D642052E1A0C7F16002A94A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D642052F1A0C7F16002A94A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D64205311A0C7F16002A94A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D64205321A0C7F16002A94A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D64205351A0C7F16002A94A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D64205371A0C7F16002A94A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D642053A1A0C7F16002A94A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D64205401A0C7F16002A94A5 /* DribbbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +39,15 @@
 		D64205461A0C7F16002A94A5 /* DribbbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DribbbleTests.m; sourceTree = "<group>"; };
 		D64205521A0C7F5E002A94A5 /* DribbbleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DribbbleAppDelegate.h; sourceTree = "<group>"; };
 		D64205531A0C7F70002A94A5 /* DribbbleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbbleAppDelegate.m; sourceTree = "<group>"; };
+		D64205591A0C9CDF002A94A5 /* DribbbleShotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DribbbleShotViewController.h; sourceTree = "<group>"; };
+		D642055A1A0C9CF4002A94A5 /* DribbbleShotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbbleShotViewController.m; sourceTree = "<group>"; };
+		D642055D1A0CA0BA002A94A5 /* DribbbleShotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DribbbleShotView.h; sourceTree = "<group>"; };
+		D642055E1A0CA0C7002A94A5 /* DribbbleShotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbbleShotView.m; sourceTree = "<group>"; };
+		D64205611A0CA689002A94A5 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		D64205621A0CB439002A94A5 /* PopularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopularViewController.h; sourceTree = "<group>"; };
+		D64205631A0CB44C002A94A5 /* PopularViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularViewController.m; sourceTree = "<group>"; };
+		D64205651A0CB45C002A94A5 /* PopularView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopularView.h; sourceTree = "<group>"; };
+		D64205661A0CB46D002A94A5 /* PopularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				D64205501A0C7F3A002A94A5 /* Application */,
-				D642052E1A0C7F16002A94A5 /* AppDelegate.h */,
-				D642052F1A0C7F16002A94A5 /* AppDelegate.m */,
-				D64205311A0C7F16002A94A5 /* ViewController.h */,
-				D64205321A0C7F16002A94A5 /* ViewController.m */,
-				D64205341A0C7F16002A94A5 /* Main.storyboard */,
 				D64205371A0C7F16002A94A5 /* Images.xcassets */,
 				D64205391A0C7F16002A94A5 /* LaunchScreen.xib */,
 				D642052A1A0C7F16002A94A5 /* Supporting Files */,
@@ -126,6 +126,8 @@
 		D64205501A0C7F3A002A94A5 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				D64205601A0CA63B002A94A5 /* Data */,
+				D64205551A0C9A14002A94A5 /* UI */,
 				D64205511A0C7F44002A94A5 /* App */,
 			);
 			name = Application;
@@ -138,6 +140,45 @@
 				D64205531A0C7F70002A94A5 /* DribbbleAppDelegate.m */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		D64205551A0C9A14002A94A5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D642055C1A0CA057002A94A5 /* Popular */,
+				D64205571A0C9C80002A94A5 /* Main */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D64205571A0C9C80002A94A5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D64205591A0C9CDF002A94A5 /* DribbbleShotViewController.h */,
+				D642055A1A0C9CF4002A94A5 /* DribbbleShotViewController.m */,
+				D642055D1A0CA0BA002A94A5 /* DribbbleShotView.h */,
+				D642055E1A0CA0C7002A94A5 /* DribbbleShotView.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D642055C1A0CA057002A94A5 /* Popular */ = {
+			isa = PBXGroup;
+			children = (
+				D64205621A0CB439002A94A5 /* PopularViewController.h */,
+				D64205631A0CB44C002A94A5 /* PopularViewController.m */,
+				D64205651A0CB45C002A94A5 /* PopularView.h */,
+				D64205661A0CB46D002A94A5 /* PopularView.m */,
+			);
+			name = Popular;
+			sourceTree = "<group>";
+		};
+		D64205601A0CA63B002A94A5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D64205611A0CA689002A94A5 /* Config.h */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +261,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64205361A0C7F16002A94A5 /* Main.storyboard in Resources */,
 				D642053B1A0C7F16002A94A5 /* LaunchScreen.xib in Resources */,
 				D64205381A0C7F16002A94A5 /* Images.xcassets in Resources */,
 			);
@@ -240,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64205331A0C7F16002A94A5 /* ViewController.m in Sources */,
-				D64205301A0C7F16002A94A5 /* AppDelegate.m in Sources */,
+				D64205641A0CB44C002A94A5 /* PopularViewController.m in Sources */,
+				D642055F1A0CA0C7002A94A5 /* DribbbleShotView.m in Sources */,
+				D64205671A0CB46D002A94A5 /* PopularView.m in Sources */,
+				D642055B1A0C9CF4002A94A5 /* DribbbleShotViewController.m in Sources */,
 				D64205541A0C7F70002A94A5 /* DribbbleAppDelegate.m in Sources */,
 				D642052D1A0C7F16002A94A5 /* main.m in Sources */,
 			);
@@ -266,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D64205341A0C7F16002A94A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D64205351A0C7F16002A94A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D64205391A0C7F16002A94A5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
